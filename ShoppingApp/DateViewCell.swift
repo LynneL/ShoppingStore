@@ -8,12 +8,18 @@
 
 import UIKit
 
+protocol DateViewCellDelegate:class {
+    
+    func didSelectDate(_ index:Int)
+}
+
 class DateViewCell: UICollectionViewCell {
 
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var dateList: UICollectionView!
     var days:[Day] = []
     var index = -1
+    weak var delegate:DateViewCellDelegate?
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -25,13 +31,13 @@ class DateViewCell: UICollectionViewCell {
     override func draw(_ rect: CGRect) {
         super.draw(rect)
         self.dateLabel.text = days.first?.month
-        for index in 0..<days.count - 1 {
+        /*for index in 0..<days.count - 1 {
             if days[index].month == "Aug" && days[index].day == "1" {
                 dateList.scrollToItem(at: IndexPath(item:index,section:0), at: .left, animated: true)
                 break
             }
             
-        }
+        }*/
     }
 
 }
@@ -67,6 +73,7 @@ extension DateViewCell:UICollectionViewDelegateFlowLayout{
         collectionView.deselectItem(at: indexPath, animated: true)
         self.index = indexPath.item
         collectionView.reloadData()
+        self.delegate?.didSelectDate(index)
     }
     
     func scrollViewDidScroll(_ scrollView: UIScrollView) {

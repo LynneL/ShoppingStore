@@ -30,7 +30,6 @@
 		BA77B7061F2149B300F84AFB /* TimeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA77B7041F2149B300F84AFB /* TimeCell.xib */; };
 		BA77B7091F214B6700F84AFB /* DetailTimeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77B7071F214B6700F84AFB /* DetailTimeCell.swift */; };
 		BA77B70A1F214B6700F84AFB /* DetailTimeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA77B7081F214B6700F84AFB /* DetailTimeCell.xib */; };
-		BA77B70C1F2157D200F84AFB /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77B70B1F2157D200F84AFB /* Time.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,7 +63,6 @@
 		BA77B7041F2149B300F84AFB /* TimeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimeCell.xib; sourceTree = "<group>"; };
 		BA77B7071F214B6700F84AFB /* DetailTimeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTimeCell.swift; sourceTree = "<group>"; };
 		BA77B7081F214B6700F84AFB /* DetailTimeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailTimeCell.xib; sourceTree = "<group>"; };
-		BA77B70B1F2157D200F84AFB /* Time.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,7 +172,6 @@
 			children = (
 				BA133E4D1F1F20E100DD6390 /* Day.swift */,
 				BA133E541F1F26D000DD6390 /* Utility.swift */,
-				BA77B70B1F2157D200F84AFB /* Time.swift */,
 			);
 			name = Module;
 			sourceTree = "<group>";
@@ -266,7 +263,6 @@
 				BA133E511F1F219E00DD6390 /* DayCell.swift in Sources */,
 				BA133E1D1F1ED6F200DD6390 /* AdvertisementCell.swift in Sources */,
 				BA133E471F1F1EA900DD6390 /* DateViewCell.swift in Sources */,
-				BA77B70C1F2157D200F84AFB /* Time.swift in Sources */,
 				BA133E0B1F1ED1EF00DD6390 /* ViewController.swift in Sources */,
 				BA133E4E1F1F20E100DD6390 /* Day.swift in Sources */,
 				BA133E3D1F1F046F00DD6390 /* IonIcons-iOS.m in Sources */,

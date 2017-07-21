@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -19,10 +19,9 @@
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fiy-fS-5tg">
-                        <rect key="frame" x="104" y="155" width="130" height="35"/>
+                        <rect key="frame" x="16" y="155" width="305" height="35"/>
                         <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="130" id="Fbz-Yp-TIy"/>
                             <constraint firstAttribute="height" constant="35" id="N6s-dz-9vD"/>
                         </constraints>
                         <state key="normal" title="RESERVATION"/>
@@ -36,7 +35,7 @@
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="DVc-0i-DDc">
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="DVc-0i-DDc">
                         <rect key="frame" x="0.0" y="37" width="337" height="106"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -61,9 +60,9 @@
                 <constraint firstItem="DVc-0i-DDc" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Fia-tW-q5M"/>
                 <constraint firstItem="DVc-0i-DDc" firstAttribute="top" secondItem="686-a8-rEW" secondAttribute="bottom" constant="8" id="GpJ-DU-tDk"/>
                 <constraint firstItem="686-a8-rEW" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="JDi-7y-c1L"/>
-                <constraint firstItem="fiy-fS-5tg" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="103.5" id="bha-Na-Jgt"/>
+                <constraint firstItem="fiy-fS-5tg" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="16" id="bha-Na-Jgt"/>
                 <constraint firstItem="686-a8-rEW" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="mze-E3-kAf"/>
-                <constraint firstAttribute="trailing" secondItem="fiy-fS-5tg" secondAttribute="trailing" constant="103.5" id="o8V-AY-jgL"/>
+                <constraint firstAttribute="trailing" secondItem="fiy-fS-5tg" secondAttribute="trailing" constant="16" id="o8V-AY-jgL"/>
                 <constraint firstItem="fiy-fS-5tg" firstAttribute="top" secondItem="DVc-0i-DDc" secondAttribute="bottom" constant="12" id="qZt-20-0hP"/>
                 <constraint firstAttribute="bottom" secondItem="fiy-fS-5tg" secondAttribute="bottom" constant="8" id="tRV-zK-bY8"/>
             </constraints>

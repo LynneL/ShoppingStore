@@ -13,5 +13,6 @@ struct Day {
     var week:String
     var day:String
     var month:String
+    var timeSlots:[String]
     
 }

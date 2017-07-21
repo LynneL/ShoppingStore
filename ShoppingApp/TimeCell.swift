@@ -10,7 +10,7 @@ import UIKit
 
 class TimeCell: UICollectionViewCell {
     @IBOutlet weak var timeList: UICollectionView!
-    var hours:[Time] = []
+    var day:Day!
 
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -22,12 +22,12 @@ class TimeCell: UICollectionViewCell {
 extension TimeCell:UICollectionViewDataSource{
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 14
+        return day.timeSlots.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "DetailTimeCell", for: indexPath) as! DetailTimeCell
-        cell.chosedTime.text = hours[indexPath.item].hour
+        cell.chosedTime.text = day.timeSlots[indexPath.item]
         return cell
     }
 }

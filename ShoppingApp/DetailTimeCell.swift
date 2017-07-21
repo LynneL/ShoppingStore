@@ -11,15 +11,11 @@ import UIKit
 class DetailTimeCell: UICollectionViewCell {
 
     @IBOutlet weak var chosedTime: UILabel!
-    var hour:Time!
     
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-    }
-    
-    override func layoutSubviews() {
-        super.layoutSubviews()
-        self.chosedTime.text = hour.hour
+        layer.borderWidth = 0.3
+        layer.borderColor = UIColor.black.cgColor
     }
 }
