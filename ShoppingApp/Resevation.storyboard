@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="U6z-5j-ruk">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Reservation View Controller-->
+        <scene sceneID="FEZ-ls-WAk">
+            <objects>
+                <viewController storyboardIdentifier="CSMVC" id="U6z-5j-ruk" customClass="ReservationViewController" customModule="ShoppingApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eRK-2Y-UQ3"/>
+                        <viewControllerLayoutGuide type="bottom" id="x2p-ly-s6X"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="s6G-vy-6cD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" segmentControlStyle="plain" selectedSegmentIndex="1" translatesAutoresizingMaskIntoConstraints="NO" id="9y2-ca-BWr">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="uRH-6o-Cg3"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="MY RESERVATIONS"/>
+                                    <segment title="NEW RESERVATION"/>
+                                </segments>
+                            </segmentedControl>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="rix-gO-iTm">
+                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="1bi-na-2SW">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="h50-tb-IYS">
+                                        <rect key="frame" x="20" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="U6z-5j-ruk" id="K5M-9B-IR1"/>
+                                    <outlet property="delegate" destination="U6z-5j-ruk" id="saC-7q-HjA"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="rix-gO-iTm" firstAttribute="leading" secondItem="s6G-vy-6cD" secondAttribute="leading" id="9BI-hj-xxl"/>
+                            <constraint firstAttribute="trailing" secondItem="9y2-ca-BWr" secondAttribute="trailing" id="D82-EL-Ed5"/>
+                            <constraint firstItem="9y2-ca-BWr" firstAttribute="leading" secondItem="s6G-vy-6cD" secondAttribute="leading" id="WNo-tM-L2f"/>
+                            <constraint firstItem="rix-gO-iTm" firstAttribute="top" secondItem="9y2-ca-BWr" secondAttribute="bottom" id="WfZ-f5-eaS"/>
+                            <constraint firstItem="9y2-ca-BWr" firstAttribute="top" secondItem="s6G-vy-6cD" secondAttribute="top" id="ZAK-zN-xzK"/>
+                            <constraint firstItem="x2p-ly-s6X" firstAttribute="top" secondItem="rix-gO-iTm" secondAttribute="bottom" id="ZCG-39-sMr"/>
+                            <constraint firstAttribute="trailing" secondItem="rix-gO-iTm" secondAttribute="trailing" id="kCv-js-4M3"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="reservationList" destination="rix-gO-iTm" id="H3n-uU-i04"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F1D-EQ-My6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="71" y="134"/>
+        </scene>
+    </scenes>
+</document>
