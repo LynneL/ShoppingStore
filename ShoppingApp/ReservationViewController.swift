@@ -12,21 +12,15 @@ class ReservationViewController: UIViewController {
     
     @IBOutlet weak var reservationList: UICollectionView!
     @IBOutlet weak var reservationImage: UIImageView!
+    @IBOutlet weak var segmentControll: UISegmentedControl!
     var days:[Day] = []
     var weekStr:String = ""
     var monthStr:String = ""
     var index = 0
     var reservationArr:[Reservation] = []
     
-    @IBOutlet weak var segmentControll: UISegmentedControl!
-    
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // Do any additional setup after loading the view.
-        
         reservationList.register(UINib(nibName: "ReservationDateCell", bundle: nil), forCellWithReuseIdentifier: "ReservationDateCell")
         reservationList.register(UINib(nibName: "ReservationTimeCell", bundle: nil), forCellWithReuseIdentifier: "ReservationTimeCell")
         reservationList.register(UINib(nibName: "MyReservationCell", bundle: nil), forCellWithReuseIdentifier: "MyReservationCell")
@@ -82,7 +76,6 @@ class ReservationViewController: UIViewController {
             days.append(dayValue)
             i += 1
         }
-        
     }
     
     @IBAction func segmentChange(_ sender: UISegmentedControl) {
@@ -196,5 +189,4 @@ extension ReservationViewController:MyReservationCellDelegate{
         reservationArr.remove(at: index)
         reservationList.reloadData()
     }
-    
 }
