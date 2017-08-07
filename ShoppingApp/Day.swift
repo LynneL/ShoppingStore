@@ -1,18 +1,18 @@
-
 //
 //  Day.swift
 //  ShoppingApp
 //
-//  Created by Lynn on 7/18/17.
+//  Created by 李玲 on 7/24/17.
 //  Copyright © 2017 Lynne. All rights reserved.
 //
 
 import Foundation
 
 struct Day {
-    var week:String
-    var day:String
-    var month:String
-    var timeSlots:[String]
     
+    let month:String
+    let date:String
+    let week:String
+    let timeSlots:[String]
+    var selectedIndex = -1
 }

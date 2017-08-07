@@ -19,16 +19,37 @@ struct Utility {
             return next
         }
     }
+    
+    /*static func findWeekday(using numberOfDay:Int)->Week{
+        var result:Week!
+        for w in iterateEnum(Week.self) {
+            if w.rawValue == numberOfDay {
+                result = w
+            }
+        }
+        return result
+    }
+    
+    static func findMonth(using numberOfDay:Int)->Month{
+        var result:Month!
+        for m in iterateEnum(Month.self) {
+            if m.rawValue == numberOfDay {
+                result = m
+            }
+        }
+        return result
+    }*/
 }
 
 enum Week:Int {
-    case Monday = 1
+    case Sunday = 1
+    case Monday
     case Tuesday
     case Wendsday
     case Thursday
     case Friday
     case Saturday
-    case Sunday
+    
 }
 
 extension Week {

@@ -7,62 +7,91 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BA133E091F1ED1EF00DD6390 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA133E081F1ED1EF00DD6390 /* AppDelegate.swift */; };
-		BA133E0B1F1ED1EF00DD6390 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA133E0A1F1ED1EF00DD6390 /* ViewController.swift */; };
-		BA133E0E1F1ED1EF00DD6390 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA133E0C1F1ED1EF00DD6390 /* Main.storyboard */; };
+		BA0D4A891F287622006620F2 /* Reservtion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0D4A881F287622006620F2 /* Reservtion.swift */; };
 		BA133E101F1ED1EF00DD6390 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA133E0F1F1ED1EF00DD6390 /* Assets.xcassets */; };
 		BA133E131F1ED1EF00DD6390 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA133E111F1ED1EF00DD6390 /* LaunchScreen.storyboard */; };
-		BA133E1D1F1ED6F200DD6390 /* AdvertisementCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA133E1B1F1ED6F200DD6390 /* AdvertisementCell.swift */; };
-		BA133E1E1F1ED6F200DD6390 /* AdvertisementCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA133E1C1F1ED6F200DD6390 /* AdvertisementCell.xib */; };
-		BA133E3C1F1F046F00DD6390 /* FontInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = BA133E341F1F046F00DD6390 /* FontInspector.m */; };
-		BA133E3D1F1F046F00DD6390 /* IonIcons-iOS.m in Sources */ = {isa = PBXBuildFile; fileRef = BA133E371F1F046F00DD6390 /* IonIcons-iOS.m */; };
-		BA133E3E1F1F046F00DD6390 /* ionicons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BA133E381F1F046F00DD6390 /* ionicons.bundle */; };
-		BA133E3F1F1F046F00DD6390 /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA133E3A1F1F046F00DD6390 /* ionicons.ttf */; };
-		BA133E411F1F1A9A00DD6390 /* Resevation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA133E401F1F1A9A00DD6390 /* Resevation.storyboard */; };
-		BA133E441F1F1C1E00DD6390 /* ReservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA133E431F1F1C1E00DD6390 /* ReservationViewController.swift */; };
-		BA133E471F1F1EA900DD6390 /* DateViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA133E451F1F1EA900DD6390 /* DateViewCell.swift */; };
-		BA133E481F1F1EA900DD6390 /* DateViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA133E461F1F1EA900DD6390 /* DateViewCell.xib */; };
-		BA133E4E1F1F20E100DD6390 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA133E4D1F1F20E100DD6390 /* Day.swift */; };
-		BA133E511F1F219E00DD6390 /* DayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA133E4F1F1F219E00DD6390 /* DayCell.swift */; };
-		BA133E521F1F219E00DD6390 /* DayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA133E501F1F219E00DD6390 /* DayCell.xib */; };
 		BA133E551F1F26D000DD6390 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA133E541F1F26D000DD6390 /* Utility.swift */; };
-		BA77B7051F2149B300F84AFB /* TimeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77B7031F2149B300F84AFB /* TimeCell.swift */; };
-		BA77B7061F2149B300F84AFB /* TimeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA77B7041F2149B300F84AFB /* TimeCell.xib */; };
-		BA77B7091F214B6700F84AFB /* DetailTimeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77B7071F214B6700F84AFB /* DetailTimeCell.swift */; };
-		BA77B70A1F214B6700F84AFB /* DetailTimeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA77B7081F214B6700F84AFB /* DetailTimeCell.xib */; };
+		BA27C66C1F25AF5200459A0D /* FontInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = BA27C66B1F25AF5200459A0D /* FontInspector.m */; };
+		BA27C6701F25AF6600459A0D /* IonIcons-iOS.m in Sources */ = {isa = PBXBuildFile; fileRef = BA27C66E1F25AF6600459A0D /* IonIcons-iOS.m */; };
+		BA27C6761F25B19500459A0D /* GoShopping.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA27C6751F25B19500459A0D /* GoShopping.storyboard */; };
+		BA27C6781F25B1E300459A0D /* GoShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA27C6771F25B1E300459A0D /* GoShoppingViewController.swift */; };
+		BA27C67A1F25C06800459A0D /* Navi.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA27C6791F25C06800459A0D /* Navi.swift */; };
+		BA27C67C1F25CB1500459A0D /* Reservation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA27C67B1F25CB1500459A0D /* Reservation.storyboard */; };
+		BA27C67E1F25CB3400459A0D /* ReservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA27C67D1F25CB3400459A0D /* ReservationViewController.swift */; };
+		BA27C6811F25D88A00459A0D /* ReservationDateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA27C67F1F25D88A00459A0D /* ReservationDateCell.swift */; };
+		BA27C6821F25D88A00459A0D /* ReservationDateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA27C6801F25D88A00459A0D /* ReservationDateCell.xib */; };
+		BA27C6851F25DAED00459A0D /* DateViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA27C6831F25DAED00459A0D /* DateViewCell.swift */; };
+		BA27C6861F25DAED00459A0D /* DateViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA27C6841F25DAED00459A0D /* DateViewCell.xib */; };
+		BA27C6891F268D4700459A0D /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA27C6881F268D4700459A0D /* Day.swift */; };
+		BA27C68C1F26AAEE00459A0D /* ReservationTimeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA27C68A1F26AAEE00459A0D /* ReservationTimeCell.swift */; };
+		BA27C68D1F26AAEE00459A0D /* ReservationTimeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA27C68B1F26AAEE00459A0D /* ReservationTimeCell.xib */; };
+		BA27C6901F26AD1D00459A0D /* TimeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA27C68E1F26AD1D00459A0D /* TimeViewCell.swift */; };
+		BA27C6911F26AD1D00459A0D /* TimeViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA27C68F1F26AD1D00459A0D /* TimeViewCell.xib */; };
+		BA27C6971F2709FE00459A0D /* ShoppingBagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA27C6961F2709FE00459A0D /* ShoppingBagViewController.swift */; };
+		BA27C69A1F270C6200459A0D /* ShoppingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA27C6981F270C6200459A0D /* ShoppingCell.swift */; };
+		BA27C69B1F270C6200459A0D /* ShoppingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA27C6991F270C6200459A0D /* ShoppingCell.xib */; };
+		BA27C6A01F2720DD00459A0D /* CheckingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA27C69E1F2720DD00459A0D /* CheckingCell.swift */; };
+		BA27C6A11F2720DD00459A0D /* CheckingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA27C69F1F2720DD00459A0D /* CheckingCell.xib */; };
+		BA27C6A71F272FC500459A0D /* ShoppingCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA27C6A61F272FC500459A0D /* ShoppingCart.swift */; };
+		BA27C6A91F27E90E00459A0D /* Commedity.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA27C6A81F27E90E00459A0D /* Commedity.swift */; };
+		BA27C6AC1F27FD6100459A0D /* MyReservationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA27C6AA1F27FD6100459A0D /* MyReservationCell.swift */; };
+		BA27C6AD1F27FD6100459A0D /* MyReservationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA27C6AB1F27FD6100459A0D /* MyReservationCell.xib */; };
+		BA5D0C531F257387006E0D6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA5D0C521F257387006E0D6E /* Main.storyboard */; };
+		BA5D0C551F25746D006E0D6E /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5D0C541F25746D006E0D6E /* MyViewController.swift */; };
+		BA5D0C581F257A97006E0D6E /* TopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5D0C561F257A97006E0D6E /* TopCell.swift */; };
+		BA5D0C591F257A97006E0D6E /* TopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA5D0C571F257A97006E0D6E /* TopCell.xib */; };
+		BA5D0C621F257DE1006E0D6E /* ionicons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BA5D0C5E1F257DE1006E0D6E /* ionicons.bundle */; };
+		BA5D0C631F257DE1006E0D6E /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA5D0C601F257DE1006E0D6E /* ionicons.ttf */; };
+		BA5D0C661F258272006E0D6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5D0C651F258272006E0D6E /* AppDelegate.swift */; };
+		BA64E32E1F380C16006F24B6 /* RKNotificationHub.m in Sources */ = {isa = PBXBuildFile; fileRef = BA64E32D1F380C16006F24B6 /* RKNotificationHub.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA0D4A881F287622006620F2 /* Reservtion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reservtion.swift; sourceTree = "<group>"; };
 		BA133E051F1ED1EF00DD6390 /* ShoppingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA133E081F1ED1EF00DD6390 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BA133E0A1F1ED1EF00DD6390 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BA133E0D1F1ED1EF00DD6390 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA133E0F1F1ED1EF00DD6390 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA133E121F1ED1EF00DD6390 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA133E141F1ED1EF00DD6390 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BA133E1B1F1ED6F200DD6390 /* AdvertisementCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvertisementCell.swift; sourceTree = "<group>"; };
-		BA133E1C1F1ED6F200DD6390 /* AdvertisementCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdvertisementCell.xib; sourceTree = "<group>"; };
-		BA133E2E1F1F041500DD6390 /* ShoppingApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShoppingApp-Bridging-Header.h"; sourceTree = "<group>"; };
-		BA133E331F1F046F00DD6390 /* FontInspector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontInspector.h; sourceTree = "<group>"; };
-		BA133E341F1F046F00DD6390 /* FontInspector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontInspector.m; sourceTree = "<group>"; };
-		BA133E351F1F046F00DD6390 /* ionicons-codes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ionicons-codes.h"; sourceTree = "<group>"; };
-		BA133E361F1F046F00DD6390 /* IonIcons-iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IonIcons-iOS.h"; sourceTree = "<group>"; };
-		BA133E371F1F046F00DD6390 /* IonIcons-iOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IonIcons-iOS.m"; sourceTree = "<group>"; };
-		BA133E381F1F046F00DD6390 /* ionicons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ionicons.bundle; sourceTree = "<group>"; };
-		BA133E391F1F046F00DD6390 /* ionicons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ionicons.h; sourceTree = "<group>"; };
-		BA133E3A1F1F046F00DD6390 /* ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ionicons.ttf; sourceTree = "<group>"; };
-		BA133E401F1F1A9A00DD6390 /* Resevation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Resevation.storyboard; sourceTree = "<group>"; };
-		BA133E431F1F1C1E00DD6390 /* ReservationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReservationViewController.swift; sourceTree = "<group>"; };
-		BA133E451F1F1EA900DD6390 /* DateViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateViewCell.swift; sourceTree = "<group>"; };
-		BA133E461F1F1EA900DD6390 /* DateViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DateViewCell.xib; sourceTree = "<group>"; };
-		BA133E4D1F1F20E100DD6390 /* Day.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
-		BA133E4F1F1F219E00DD6390 /* DayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayCell.swift; sourceTree = "<group>"; };
-		BA133E501F1F219E00DD6390 /* DayCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DayCell.xib; sourceTree = "<group>"; };
 		BA133E541F1F26D000DD6390 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
-		BA77B7031F2149B300F84AFB /* TimeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeCell.swift; sourceTree = "<group>"; };
-		BA77B7041F2149B300F84AFB /* TimeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimeCell.xib; sourceTree = "<group>"; };
-		BA77B7071F214B6700F84AFB /* DetailTimeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTimeCell.swift; sourceTree = "<group>"; };
-		BA77B7081F214B6700F84AFB /* DetailTimeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailTimeCell.xib; sourceTree = "<group>"; };
+		BA27C66A1F25AF5200459A0D /* FontInspector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontInspector.h; sourceTree = "<group>"; };
+		BA27C66B1F25AF5200459A0D /* FontInspector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontInspector.m; sourceTree = "<group>"; };
+		BA27C66E1F25AF6600459A0D /* IonIcons-iOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IonIcons-iOS.m"; sourceTree = "<group>"; };
+		BA27C6751F25B19500459A0D /* GoShopping.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GoShopping.storyboard; sourceTree = "<group>"; };
+		BA27C6771F25B1E300459A0D /* GoShoppingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoShoppingViewController.swift; sourceTree = "<group>"; };
+		BA27C6791F25C06800459A0D /* Navi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navi.swift; sourceTree = "<group>"; };
+		BA27C67B1F25CB1500459A0D /* Reservation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Reservation.storyboard; sourceTree = "<group>"; };
+		BA27C67D1F25CB3400459A0D /* ReservationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReservationViewController.swift; sourceTree = "<group>"; };
+		BA27C67F1F25D88A00459A0D /* ReservationDateCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReservationDateCell.swift; sourceTree = "<group>"; };
+		BA27C6801F25D88A00459A0D /* ReservationDateCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReservationDateCell.xib; sourceTree = "<group>"; };
+		BA27C6831F25DAED00459A0D /* DateViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateViewCell.swift; sourceTree = "<group>"; };
+		BA27C6841F25DAED00459A0D /* DateViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DateViewCell.xib; sourceTree = "<group>"; };
+		BA27C6881F268D4700459A0D /* Day.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		BA27C68A1F26AAEE00459A0D /* ReservationTimeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReservationTimeCell.swift; sourceTree = "<group>"; };
+		BA27C68B1F26AAEE00459A0D /* ReservationTimeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReservationTimeCell.xib; sourceTree = "<group>"; };
+		BA27C68E1F26AD1D00459A0D /* TimeViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeViewCell.swift; sourceTree = "<group>"; };
+		BA27C68F1F26AD1D00459A0D /* TimeViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimeViewCell.xib; sourceTree = "<group>"; };
+		BA27C6961F2709FE00459A0D /* ShoppingBagViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingBagViewController.swift; sourceTree = "<group>"; };
+		BA27C6981F270C6200459A0D /* ShoppingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingCell.swift; sourceTree = "<group>"; };
+		BA27C6991F270C6200459A0D /* ShoppingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShoppingCell.xib; sourceTree = "<group>"; };
+		BA27C69E1F2720DD00459A0D /* CheckingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckingCell.swift; sourceTree = "<group>"; };
+		BA27C69F1F2720DD00459A0D /* CheckingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CheckingCell.xib; sourceTree = "<group>"; };
+		BA27C6A61F272FC500459A0D /* ShoppingCart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingCart.swift; sourceTree = "<group>"; };
+		BA27C6A81F27E90E00459A0D /* Commedity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Commedity.swift; sourceTree = "<group>"; };
+		BA27C6AA1F27FD6100459A0D /* MyReservationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyReservationCell.swift; sourceTree = "<group>"; };
+		BA27C6AB1F27FD6100459A0D /* MyReservationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyReservationCell.xib; sourceTree = "<group>"; };
+		BA5D0C521F257387006E0D6E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BA5D0C541F25746D006E0D6E /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		BA5D0C561F257A97006E0D6E /* TopCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopCell.swift; sourceTree = "<group>"; };
+		BA5D0C571F257A97006E0D6E /* TopCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopCell.xib; sourceTree = "<group>"; };
+		BA5D0C5A1F257DB5006E0D6E /* ShoppingApp-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ShoppingApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		BA5D0C5B1F257DE1006E0D6E /* ionicons-codes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ionicons-codes.h"; sourceTree = "<group>"; };
+		BA5D0C5C1F257DE1006E0D6E /* IonIcons-iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IonIcons-iOS.h"; sourceTree = "<group>"; };
+		BA5D0C5E1F257DE1006E0D6E /* ionicons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ionicons.bundle; sourceTree = "<group>"; };
+		BA5D0C5F1F257DE1006E0D6E /* ionicons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ionicons.h; sourceTree = "<group>"; };
+		BA5D0C601F257DE1006E0D6E /* ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ionicons.ttf; sourceTree = "<group>"; };
+		BA5D0C651F258272006E0D6E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA64E32C1F380C16006F24B6 /* RKNotificationHub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKNotificationHub.h; sourceTree = "<group>"; };
+		BA64E32D1F380C16006F24B6 /* RKNotificationHub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKNotificationHub.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				BA133E071F1ED1EF00DD6390 /* ShoppingApp */,
+				BA133E1A1F1ED1F800DD6390 /* SupportingFiles */,
 				BA133E061F1ED1EF00DD6390 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,11 +125,13 @@
 		BA133E071F1ED1EF00DD6390 /* ShoppingApp */ = {
 			isa = PBXGroup;
 			children = (
-				BA133E1A1F1ED1F800DD6390 /* SupportingFiles */,
+				BA5D0C651F258272006E0D6E /* AppDelegate.swift */,
+				BA5D0C541F25746D006E0D6E /* MyViewController.swift */,
+				BA27C6771F25B1E300459A0D /* GoShoppingViewController.swift */,
+				BA27C6961F2709FE00459A0D /* ShoppingBagViewController.swift */,
+				BA27C67D1F25CB3400459A0D /* ReservationViewController.swift */,
+				BA27C6791F25C06800459A0D /* Navi.swift */,
 				BA133E1F1F1ED6FA00DD6390 /* Views */,
-				BA133E081F1ED1EF00DD6390 /* AppDelegate.swift */,
-				BA133E0A1F1ED1EF00DD6390 /* ViewController.swift */,
-				BA133E431F1F1C1E00DD6390 /* ReservationViewController.swift */,
 				BA133E531F1F26AD00DD6390 /* Module */,
 			);
 			path = ShoppingApp;
@@ -108,61 +140,48 @@
 		BA133E1A1F1ED1F800DD6390 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
-				BA133E321F1F046F00DD6390 /* ionicons */,
+				BA64E32C1F380C16006F24B6 /* RKNotificationHub.h */,
+				BA64E32D1F380C16006F24B6 /* RKNotificationHub.m */,
+				BA5D0C641F257DEA006E0D6E /* IonIcons */,
+				BA5D0C5A1F257DB5006E0D6E /* ShoppingApp-Bridging-Header.h */,
 				BA133E0F1F1ED1EF00DD6390 /* Assets.xcassets */,
 				BA133E111F1ED1EF00DD6390 /* LaunchScreen.storyboard */,
 				BA133E141F1ED1EF00DD6390 /* Info.plist */,
-				BA133E2E1F1F041500DD6390 /* ShoppingApp-Bridging-Header.h */,
 			);
 			name = SupportingFiles;
+			path = ShoppingApp;
 			sourceTree = "<group>";
 		};
 		BA133E1F1F1ED6FA00DD6390 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				BA133E1B1F1ED6F200DD6390 /* AdvertisementCell.swift */,
-				BA133E1C1F1ED6F200DD6390 /* AdvertisementCell.xib */,
-				BA133E451F1F1EA900DD6390 /* DateViewCell.swift */,
-				BA133E461F1F1EA900DD6390 /* DateViewCell.xib */,
-				BA133E4F1F1F219E00DD6390 /* DayCell.swift */,
-				BA133E501F1F219E00DD6390 /* DayCell.xib */,
-				BA77B7031F2149B300F84AFB /* TimeCell.swift */,
-				BA77B7041F2149B300F84AFB /* TimeCell.xib */,
-				BA77B7071F214B6700F84AFB /* DetailTimeCell.swift */,
-				BA77B7081F214B6700F84AFB /* DetailTimeCell.xib */,
+				BA5D0C561F257A97006E0D6E /* TopCell.swift */,
+				BA5D0C571F257A97006E0D6E /* TopCell.xib */,
+				BA27C67F1F25D88A00459A0D /* ReservationDateCell.swift */,
+				BA27C6801F25D88A00459A0D /* ReservationDateCell.xib */,
+				BA27C6831F25DAED00459A0D /* DateViewCell.swift */,
+				BA27C6841F25DAED00459A0D /* DateViewCell.xib */,
+				BA27C68A1F26AAEE00459A0D /* ReservationTimeCell.swift */,
+				BA27C68B1F26AAEE00459A0D /* ReservationTimeCell.xib */,
+				BA27C68E1F26AD1D00459A0D /* TimeViewCell.swift */,
+				BA27C68F1F26AD1D00459A0D /* TimeViewCell.xib */,
+				BA27C6981F270C6200459A0D /* ShoppingCell.swift */,
+				BA27C6991F270C6200459A0D /* ShoppingCell.xib */,
+				BA27C69E1F2720DD00459A0D /* CheckingCell.swift */,
+				BA27C69F1F2720DD00459A0D /* CheckingCell.xib */,
+				BA27C6AA1F27FD6100459A0D /* MyReservationCell.swift */,
+				BA27C6AB1F27FD6100459A0D /* MyReservationCell.xib */,
 				BA133E421F1F1BCE00DD6390 /* Storyboard */,
 			);
 			name = Views;
 			sourceTree = "<group>";
 		};
-		BA133E321F1F046F00DD6390 /* ionicons */ = {
-			isa = PBXGroup;
-			children = (
-				BA133E331F1F046F00DD6390 /* FontInspector.h */,
-				BA133E341F1F046F00DD6390 /* FontInspector.m */,
-				BA133E351F1F046F00DD6390 /* ionicons-codes.h */,
-				BA133E361F1F046F00DD6390 /* IonIcons-iOS.h */,
-				BA133E371F1F046F00DD6390 /* IonIcons-iOS.m */,
-				BA133E381F1F046F00DD6390 /* ionicons.bundle */,
-				BA133E391F1F046F00DD6390 /* ionicons.h */,
-				BA133E3A1F1F046F00DD6390 /* ionicons.ttf */,
-				BA133E3B1F1F046F00DD6390 /* ioniconsTests */,
-			);
-			path = ionicons;
-			sourceTree = "<group>";
-		};
-		BA133E3B1F1F046F00DD6390 /* ioniconsTests */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ioniconsTests;
-			sourceTree = "<group>";
-		};
 		BA133E421F1F1BCE00DD6390 /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				BA133E0C1F1ED1EF00DD6390 /* Main.storyboard */,
-				BA133E401F1F1A9A00DD6390 /* Resevation.storyboard */,
+				BA5D0C521F257387006E0D6E /* Main.storyboard */,
+				BA27C6751F25B19500459A0D /* GoShopping.storyboard */,
+				BA27C67B1F25CB1500459A0D /* Reservation.storyboard */,
 			);
 			name = Storyboard;
 			sourceTree = "<group>";
@@ -170,10 +189,28 @@
 		BA133E531F1F26AD00DD6390 /* Module */ = {
 			isa = PBXGroup;
 			children = (
-				BA133E4D1F1F20E100DD6390 /* Day.swift */,
 				BA133E541F1F26D000DD6390 /* Utility.swift */,
+				BA27C6881F268D4700459A0D /* Day.swift */,
+				BA27C6A81F27E90E00459A0D /* Commedity.swift */,
+				BA27C6A61F272FC500459A0D /* ShoppingCart.swift */,
+				BA0D4A881F287622006620F2 /* Reservtion.swift */,
 			);
 			name = Module;
+			sourceTree = "<group>";
+		};
+		BA5D0C641F257DEA006E0D6E /* IonIcons */ = {
+			isa = PBXGroup;
+			children = (
+				BA5D0C5C1F257DE1006E0D6E /* IonIcons-iOS.h */,
+				BA27C66E1F25AF6600459A0D /* IonIcons-iOS.m */,
+				BA27C66A1F25AF5200459A0D /* FontInspector.h */,
+				BA27C66B1F25AF5200459A0D /* FontInspector.m */,
+				BA5D0C5B1F257DE1006E0D6E /* ionicons-codes.h */,
+				BA5D0C5E1F257DE1006E0D6E /* ionicons.bundle */,
+				BA5D0C5F1F257DE1006E0D6E /* ionicons.h */,
+				BA5D0C601F257DE1006E0D6E /* ionicons.ttf */,
+			);
+			name = IonIcons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,6 +245,7 @@
 				TargetAttributes = {
 					BA133E041F1ED1EF00DD6390 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = EZ679F3LK2;
 						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
@@ -236,17 +274,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA133E3F1F1F046F00DD6390 /* ionicons.ttf in Resources */,
-				BA133E521F1F219E00DD6390 /* DayCell.xib in Resources */,
+				BA5D0C631F257DE1006E0D6E /* ionicons.ttf in Resources */,
+				BA27C6AD1F27FD6100459A0D /* MyReservationCell.xib in Resources */,
+				BA27C69B1F270C6200459A0D /* ShoppingCell.xib in Resources */,
+				BA27C6821F25D88A00459A0D /* ReservationDateCell.xib in Resources */,
+				BA5D0C531F257387006E0D6E /* Main.storyboard in Resources */,
+				BA27C6911F26AD1D00459A0D /* TimeViewCell.xib in Resources */,
+				BA5D0C621F257DE1006E0D6E /* ionicons.bundle in Resources */,
+				BA27C6861F25DAED00459A0D /* DateViewCell.xib in Resources */,
+				BA27C68D1F26AAEE00459A0D /* ReservationTimeCell.xib in Resources */,
 				BA133E131F1ED1EF00DD6390 /* LaunchScreen.storyboard in Resources */,
-				BA133E481F1F1EA900DD6390 /* DateViewCell.xib in Resources */,
-				BA77B7061F2149B300F84AFB /* TimeCell.xib in Resources */,
-				BA133E411F1F1A9A00DD6390 /* Resevation.storyboard in Resources */,
-				BA133E3E1F1F046F00DD6390 /* ionicons.bundle in Resources */,
-				BA77B70A1F214B6700F84AFB /* DetailTimeCell.xib in Resources */,
-				BA133E1E1F1ED6F200DD6390 /* AdvertisementCell.xib in Resources */,
+				BA27C6A11F2720DD00459A0D /* CheckingCell.xib in Resources */,
 				BA133E101F1ED1EF00DD6390 /* Assets.xcassets in Resources */,
-				BA133E0E1F1ED1EF00DD6390 /* Main.storyboard in Resources */,
+				BA27C6761F25B19500459A0D /* GoShopping.storyboard in Resources */,
+				BA5D0C591F257A97006E0D6E /* TopCell.xib in Resources */,
+				BA27C67C1F25CB1500459A0D /* Reservation.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,32 +299,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA5D0C661F258272006E0D6E /* AppDelegate.swift in Sources */,
+				BA27C6701F25AF6600459A0D /* IonIcons-iOS.m in Sources */,
+				BA27C6891F268D4700459A0D /* Day.swift in Sources */,
+				BA27C6901F26AD1D00459A0D /* TimeViewCell.swift in Sources */,
+				BA27C6A91F27E90E00459A0D /* Commedity.swift in Sources */,
+				BA27C68C1F26AAEE00459A0D /* ReservationTimeCell.swift in Sources */,
+				BA27C69A1F270C6200459A0D /* ShoppingCell.swift in Sources */,
+				BA27C6851F25DAED00459A0D /* DateViewCell.swift in Sources */,
+				BA27C67E1F25CB3400459A0D /* ReservationViewController.swift in Sources */,
+				BA5D0C551F25746D006E0D6E /* MyViewController.swift in Sources */,
+				BA27C67A1F25C06800459A0D /* Navi.swift in Sources */,
+				BA27C66C1F25AF5200459A0D /* FontInspector.m in Sources */,
+				BA27C6971F2709FE00459A0D /* ShoppingBagViewController.swift in Sources */,
+				BA27C6781F25B1E300459A0D /* GoShoppingViewController.swift in Sources */,
+				BA27C6AC1F27FD6100459A0D /* MyReservationCell.swift in Sources */,
+				BA64E32E1F380C16006F24B6 /* RKNotificationHub.m in Sources */,
+				BA27C6A71F272FC500459A0D /* ShoppingCart.swift in Sources */,
 				BA133E551F1F26D000DD6390 /* Utility.swift in Sources */,
-				BA133E3C1F1F046F00DD6390 /* FontInspector.m in Sources */,
-				BA77B7051F2149B300F84AFB /* TimeCell.swift in Sources */,
-				BA133E511F1F219E00DD6390 /* DayCell.swift in Sources */,
-				BA133E1D1F1ED6F200DD6390 /* AdvertisementCell.swift in Sources */,
-				BA133E471F1F1EA900DD6390 /* DateViewCell.swift in Sources */,
-				BA133E0B1F1ED1EF00DD6390 /* ViewController.swift in Sources */,
-				BA133E4E1F1F20E100DD6390 /* Day.swift in Sources */,
-				BA133E3D1F1F046F00DD6390 /* IonIcons-iOS.m in Sources */,
-				BA77B7091F214B6700F84AFB /* DetailTimeCell.swift in Sources */,
-				BA133E091F1ED1EF00DD6390 /* AppDelegate.swift in Sources */,
-				BA133E441F1F1C1E00DD6390 /* ReservationViewController.swift in Sources */,
+				BA27C6A01F2720DD00459A0D /* CheckingCell.swift in Sources */,
+				BA27C6811F25D88A00459A0D /* ReservationDateCell.swift in Sources */,
+				BA5D0C581F257A97006E0D6E /* TopCell.swift in Sources */,
+				BA0D4A891F287622006620F2 /* Reservtion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BA133E0C1F1ED1EF00DD6390 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BA133E0D1F1ED1EF00DD6390 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BA133E111F1ED1EF00DD6390 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -394,6 +438,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = EZ679F3LK2;
 				INFOPLIST_FILE = ShoppingApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Lynne.ShoppingApp;
@@ -409,6 +454,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = EZ679F3LK2;
 				INFOPLIST_FILE = ShoppingApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Lynne.ShoppingApp;

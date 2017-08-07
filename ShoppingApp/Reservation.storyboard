@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Reservation View Controller-->
+        <scene sceneID="0hN-oJ-K3r">
+            <objects>
+                <viewController storyboardIdentifier="RVC" id="3mU-pi-Lna" customClass="ReservationViewController" customModule="ShoppingApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lzK-tN-ftL"/>
+                        <viewControllerLayoutGuide type="bottom" id="Pke-pd-hgh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="njZ-w7-40V">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" segmentControlStyle="plain" selectedSegmentIndex="1" translatesAutoresizingMaskIntoConstraints="NO" id="RB2-Ct-pGL">
+                                <rect key="frame" x="0.0" y="215" width="375" height="45"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="haj-dd-WKh"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="MY RESERVATIONS"/>
+                                    <segment title="NEW RESERVATION"/>
+                                </segments>
+                                <connections>
+                                    <action selector="segmentChange:" destination="3mU-pi-Lna" eventType="valueChanged" id="hiu-VR-JZJ"/>
+                                </connections>
+                            </segmentedControl>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="gA6-Vl-fo7">
+                                <rect key="frame" x="0.0" y="259" width="375" height="408"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="7V5-Sq-Tre">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gYe-iH-Rwr">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="3mU-pi-Lna" id="MNt-5x-qX9"/>
+                                    <outlet property="delegate" destination="3mU-pi-Lna" id="N2W-jj-uxh"/>
+                                </connections>
+                            </collectionView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mP7-wA-j7X">
+                                <rect key="frame" x="0.0" y="20" width="375" height="195"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="195" id="aJV-rj-cnT"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Pke-pd-hgh" firstAttribute="top" secondItem="gA6-Vl-fo7" secondAttribute="bottom" id="2dX-gC-MXu"/>
+                            <constraint firstItem="gA6-Vl-fo7" firstAttribute="top" secondItem="RB2-Ct-pGL" secondAttribute="bottom" id="7xN-7N-Zvn"/>
+                            <constraint firstItem="mP7-wA-j7X" firstAttribute="top" secondItem="lzK-tN-ftL" secondAttribute="bottom" id="Eyc-nF-Pfd"/>
+                            <constraint firstAttribute="trailing" secondItem="gA6-Vl-fo7" secondAttribute="trailing" id="Iny-19-A70"/>
+                            <constraint firstItem="gA6-Vl-fo7" firstAttribute="leading" secondItem="njZ-w7-40V" secondAttribute="leading" id="SfU-Qt-Y1v"/>
+                            <constraint firstItem="RB2-Ct-pGL" firstAttribute="leading" secondItem="njZ-w7-40V" secondAttribute="leading" id="Wgc-CC-iDo"/>
+                            <constraint firstItem="RB2-Ct-pGL" firstAttribute="top" secondItem="mP7-wA-j7X" secondAttribute="bottom" id="iEp-I0-R08"/>
+                            <constraint firstAttribute="trailing" secondItem="mP7-wA-j7X" secondAttribute="trailing" id="nNd-5E-q3s"/>
+                            <constraint firstItem="mP7-wA-j7X" firstAttribute="leading" secondItem="njZ-w7-40V" secondAttribute="leading" id="rLC-DU-5h4"/>
+                            <constraint firstAttribute="trailing" secondItem="RB2-Ct-pGL" secondAttribute="trailing" id="x1a-6K-S9p"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="reservationImage" destination="mP7-wA-j7X" id="eFK-7e-JZg"/>
+                        <outlet property="reservationList" destination="gA6-Vl-fo7" id="q0q-Tk-cxz"/>
+                        <outlet property="segmentControll" destination="RB2-Ct-pGL" id="OW3-Ey-tTm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MAw-31-oTW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-44" y="21.139430284857571"/>
+        </scene>
+    </scenes>
+</document>

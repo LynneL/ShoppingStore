@@ -1,5 +1,5 @@
 //
-//  DateViewCell.swift
+//  TimeViewCell.swift
 //  ShoppingApp
 //
 //  Created by 李玲 on 7/24/17.
@@ -8,12 +8,11 @@
 
 import UIKit
 
-class DateViewCell: UICollectionViewCell {
+class TimeViewCell: UICollectionViewCell {
 
     @IBOutlet weak var coverView: UIImageView!
-    @IBOutlet weak var dayLabel: UILabel!
-    @IBOutlet weak var weekLabel: UILabel!
-    var day:Day!
+    @IBOutlet weak var timeLabel: UILabel!
+    
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -24,14 +23,11 @@ class DateViewCell: UICollectionViewCell {
         self.coverView.image =
             IonIcons.image(withIcon: ion_ios_checkmark_outline,
                            iconColor: .white,
-                           iconSize: 35,
-                           imageSize: CGSize(width: 35, height: 35))
+                           iconSize: 30,
+                           imageSize: CGSize(width: 30, height: 30))
     }
     
-    override func layoutSubviews() {
-        super.layoutSubviews()
-        self.dayLabel.text = day.date
-        self.weekLabel.text = day.week
+    override func prepareForReuse() {
+        super.prepareForReuse()
     }
-
 }

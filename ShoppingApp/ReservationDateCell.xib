@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ReservationDateCell" customModule="ShoppingApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="269" height="120"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="269" height="120"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zNI-zZ-evV">
+                        <rect key="frame" x="20" y="12" width="138.5" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="c0r-er-YGI"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="View Calendar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JyF-q6-QIr">
+                        <rect key="frame" x="166.5" y="12" width="82.5" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="82.5" id="Mqe-fJ-IzC"/>
+                            <constraint firstAttribute="height" constant="21" id="vPh-Rg-eFs"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="12"/>
+                        <color key="textColor" red="0.2971780403" green="0.82296954310000003" blue="0.65399676650000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="gKt-rC-Grl">
+                        <rect key="frame" x="20" y="41" width="229" height="79"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="79" id="USR-p0-QmS"/>
+                        </constraints>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="xaM-fN-68S">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <connections>
+                            <outlet property="dataSource" destination="gTV-IL-0wX" id="7V0-FI-DZm"/>
+                            <outlet property="delegate" destination="gTV-IL-0wX" id="qic-he-yUe"/>
+                        </connections>
+                    </collectionView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="JyF-q6-QIr" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="12" id="A8y-gT-Hua"/>
+                <constraint firstItem="zNI-zZ-evV" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="12" id="AlD-OM-eqy"/>
+                <constraint firstItem="gKt-rC-Grl" firstAttribute="top" secondItem="zNI-zZ-evV" secondAttribute="bottom" constant="8" id="Ari-sd-bjc"/>
+                <constraint firstItem="JyF-q6-QIr" firstAttribute="leading" secondItem="zNI-zZ-evV" secondAttribute="trailing" constant="8" id="AzZ-zM-GQc"/>
+                <constraint firstItem="JyF-q6-QIr" firstAttribute="leading" secondItem="zNI-zZ-evV" secondAttribute="trailing" constant="8" id="Lbo-KF-oD3"/>
+                <constraint firstAttribute="trailing" secondItem="gKt-rC-Grl" secondAttribute="trailing" constant="20" id="cii-l9-ivW"/>
+                <constraint firstAttribute="trailing" secondItem="JyF-q6-QIr" secondAttribute="trailing" constant="20" id="hzI-rg-lgJ"/>
+                <constraint firstItem="gKt-rC-Grl" firstAttribute="top" secondItem="JyF-q6-QIr" secondAttribute="bottom" constant="8" id="t7C-2p-LfG"/>
+                <constraint firstItem="gKt-rC-Grl" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="xZb-Tw-cIa"/>
+                <constraint firstItem="zNI-zZ-evV" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="xmy-lF-TM0"/>
+            </constraints>
+            <size key="customSize" width="269" height="120"/>
+            <connections>
+                <outlet property="calendarLabel" destination="JyF-q6-QIr" id="nTU-C4-Cr5"/>
+                <outlet property="dateList" destination="gKt-rC-Grl" id="bW6-Nd-v9e"/>
+                <outlet property="monthLabel" destination="zNI-zZ-evV" id="gDP-iI-wEW"/>
+            </connections>
+            <point key="canvasLocation" x="142.5" y="94"/>
+        </collectionViewCell>
+    </objects>
+</document>
